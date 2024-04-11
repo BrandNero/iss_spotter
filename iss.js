@@ -23,4 +23,4 @@ const fetchMyIp = function(callback) {
     return callback(null, ip);
   });
 };
-module.exports = fetchMyIp;
+module.exports = {fetchMyIp};

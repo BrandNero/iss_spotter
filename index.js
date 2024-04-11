@@ -1,4 +1,4 @@
-const fetchMyIp = require("./iss");
+const {fetchMyIp} = require("./iss");
 fetchMyIp((error, ip) => {
   if (error) {
     console.log("It didn't work!", error);
